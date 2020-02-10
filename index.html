@@ -1,0 +1,11 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            top.postMessage(
+                JSON.stringify("open('https://facebook.com');alert('Payload');"),
+                "*"              
+            );
+        </script>
+    </body>
+</html>
